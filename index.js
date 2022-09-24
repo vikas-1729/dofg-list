@@ -25,6 +25,7 @@ async function addImages(imgList){
         breedImages.innerHTML = "No Images";
         return;
    }
+   breedImages.innerHTML = "";
    imgList = imgList.slice(0,MAX_IMAGE);
    imgList.map((item)=>{
     var img = document.createElement('img');
